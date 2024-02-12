@@ -181,7 +181,7 @@
         "        server.sendmail(sender_email, to_email, msg.as_string())\n",
         "\n",
         "# Exemple d'utilisation\n",
-        "send_email('stanlesieurpro@gmail.com', 'Invitation à participer à notre enquête de satisfaction', 'body', 'scheduled_time', 'stanlesieur77@gmail.com', 'fgyk ttmn nadb idqc', 'smtp.gmail.com', 25, 'https://docs.google.com/forms/d/e/1FAIpQLSeu0BKknzed47oK1i1a5ZnaiYeXNFGAjLAk01LRkH2xXApM1g/viewform')\n"
+        "send_email('client@gmail.com', 'Invitation à participer à notre enquête de satisfaction', 'body', 'scheduled_time', 'entreprise@gmail.com', 'mot de passe', 'smtp.gmail.com', 25, 'https://docs.google.com/forms/d/e/1FAIpQLSeu0BKknzed47oK1i1a5ZnaiYeXNFGAjLAk01LRkH2xXApM1g/viewform')\n"
       ],
       "metadata": {
         "id": "597itr00xKyj"
@@ -1598,7 +1598,7 @@
         "        server.sendmail(sender_email, to_email, msg.as_string())\n",
         "\n",
         "# Exemple d'utilisation\n",
-        "send_email(\"stanlesieurpro@gmail.com\", \"L'Oréal : Merci de votre participation\", \"body\", \"scheduled_time\", \"stanlesieur77@gmail.com\", \"fgyk ttmn nadb idqc\", \"smtp.gmail.com\", 25, \"http://localhost:8501/\",rp1, rp2,\"https://www.loreal-paris.fr/soin/soin-par-categorie/soin-yeux/revitalift-yeux/OAP5037.html\")\n"
+        "send_email(\"client@gmail.com\", \"L'Oréal : Merci de votre participation\", \"body\", \"scheduled_time\", \"entreprise@gmail.com\", \"mot de passe\", \"smtp.gmail.com\", 25, \"http://localhost:8501/\",rp1, rp2,\"https://www.loreal-paris.fr/soin/soin-par-categorie/soin-yeux/revitalift-yeux/OAP5037.html\")\n"
       ],
       "metadata": {
         "id": "lR0Cv5yw28mH"
